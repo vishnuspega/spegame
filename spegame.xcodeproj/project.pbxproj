@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E004DA7220257F5F00D15F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E004DA7120257F5F00D15F37 /* AppDelegate.swift */; };
-		E004DA7420257F5F00D15F37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E004DA7320257F5F00D15F37 /* ViewController.swift */; };
 		E004DA7720257F5F00D15F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E004DA7520257F5F00D15F37 /* Main.storyboard */; };
 		E004DA7A20257F5F00D15F37 /* spegame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E004DA7820257F5F00D15F37 /* spegame.xcdatamodeld */; };
 		E004DA7C20257F5F00D15F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E004DA7B20257F5F00D15F37 /* Assets.xcassets */; };
 		E004DA7F20257F5F00D15F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E004DA7D20257F5F00D15F37 /* LaunchScreen.storyboard */; };
 		E004DA8A20257F5F00D15F37 /* spegameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E004DA8920257F5F00D15F37 /* spegameTests.swift */; };
+		E00A428B2029BC1A0086F33D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00A428A2029BC1A0086F33D /* Login.swift */; };
+		E00A428D2029BC2E0086F33D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00A428C2029BC2E0086F33D /* Home.swift */; };
+		E00A428F2029BC800086F33D /* chooselanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00A428E2029BC800086F33D /* chooselanguage.swift */; };
+		E00A42912029BC9A0086F33D /* newsfeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00A42902029BC9A0086F33D /* newsfeed.swift */; };
+		E00A42942029BD770086F33D /* newscollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00A42932029BD770086F33D /* newscollection.swift */; };
+		E04AD2C9202C1D8400A76663 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04AD2C8202C1D8400A76663 /* Service.swift */; };
+		E04AD2CB202C1DA400A76663 /* detailservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04AD2CA202C1DA400A76663 /* detailservice.swift */; };
+		E0580675202AB6E800F19B8E /* followers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0580674202AB6E800F19B8E /* followers.swift */; };
+		E0580679202ABD0200F19B8E /* followcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0580678202ABD0200F19B8E /* followcell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +37,6 @@
 /* Begin PBXFileReference section */
 		E004DA6E20257F5F00D15F37 /* spegame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spegame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E004DA7120257F5F00D15F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E004DA7320257F5F00D15F37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E004DA7620257F5F00D15F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E004DA7920257F5F00D15F37 /* spegame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = spegame.xcdatamodel; sourceTree = "<group>"; };
 		E004DA7B20257F5F00D15F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +45,15 @@
 		E004DA8520257F5F00D15F37 /* spegameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spegameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E004DA8920257F5F00D15F37 /* spegameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spegameTests.swift; sourceTree = "<group>"; };
 		E004DA8B20257F5F00D15F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00A428A2029BC1A0086F33D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E00A428C2029BC2E0086F33D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E00A428E2029BC800086F33D /* chooselanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooselanguage.swift; sourceTree = "<group>"; };
+		E00A42902029BC9A0086F33D /* newsfeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsfeed.swift; sourceTree = "<group>"; };
+		E00A42932029BD770086F33D /* newscollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newscollection.swift; sourceTree = "<group>"; };
+		E04AD2C8202C1D8400A76663 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		E04AD2CA202C1DA400A76663 /* detailservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailservice.swift; sourceTree = "<group>"; };
+		E0580674202AB6E800F19B8E /* followers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followers.swift; sourceTree = "<group>"; };
+		E0580678202ABD0200F19B8E /* followcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followcell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				E004DA7120257F5F00D15F37 /* AppDelegate.swift */,
-				E004DA7320257F5F00D15F37 /* ViewController.swift */,
+				E00A42892029BBEB0086F33D /* viewcontroller */,
 				E004DA7520257F5F00D15F37 /* Main.storyboard */,
+				E00A42922029BD2C0086F33D /* collection cell */,
 				E004DA7B20257F5F00D15F37 /* Assets.xcassets */,
 				E004DA7D20257F5F00D15F37 /* LaunchScreen.storyboard */,
 				E004DA8020257F5F00D15F37 /* Info.plist */,
@@ -97,6 +114,29 @@
 				E004DA8B20257F5F00D15F37 /* Info.plist */,
 			);
 			path = spegameTests;
+			sourceTree = "<group>";
+		};
+		E00A42892029BBEB0086F33D /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				E00A428A2029BC1A0086F33D /* Login.swift */,
+				E00A42902029BC9A0086F33D /* newsfeed.swift */,
+				E00A428E2029BC800086F33D /* chooselanguage.swift */,
+				E00A428C2029BC2E0086F33D /* Home.swift */,
+				E0580674202AB6E800F19B8E /* followers.swift */,
+				E04AD2C8202C1D8400A76663 /* Service.swift */,
+				E04AD2CA202C1DA400A76663 /* detailservice.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		E00A42922029BD2C0086F33D /* collection cell */ = {
+			isa = PBXGroup;
+			children = (
+				E00A42932029BD770086F33D /* newscollection.swift */,
+				E0580678202ABD0200F19B8E /* followcell.swift */,
+			);
+			path = "collection cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +242,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0580679202ABD0200F19B8E /* followcell.swift in Sources */,
 				E004DA7A20257F5F00D15F37 /* spegame.xcdatamodeld in Sources */,
-				E004DA7420257F5F00D15F37 /* ViewController.swift in Sources */,
+				E00A42912029BC9A0086F33D /* newsfeed.swift in Sources */,
+				E00A428F2029BC800086F33D /* chooselanguage.swift in Sources */,
+				E00A428D2029BC2E0086F33D /* Home.swift in Sources */,
 				E004DA7220257F5F00D15F37 /* AppDelegate.swift in Sources */,
+				E00A428B2029BC1A0086F33D /* Login.swift in Sources */,
+				E04AD2C9202C1D8400A76663 /* Service.swift in Sources */,
+				E04AD2CB202C1DA400A76663 /* detailservice.swift in Sources */,
+				E00A42942029BD770086F33D /* newscollection.swift in Sources */,
+				E0580675202AB6E800F19B8E /* followers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

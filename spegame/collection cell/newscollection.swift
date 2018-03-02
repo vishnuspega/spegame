@@ -9,6 +9,12 @@
 import UIKit
 
 class newscollection: UICollectionViewCell {
-    @IBOutlet weak var img1: UIImageView!
+    @IBOutlet weak var upldimage: UIImageView!
+    @IBOutlet weak var likebutton: UIButton!
+    @IBOutlet weak var commentbutton: UIButton!
+    @IBOutlet weak var sharebutton: UIButton!
+    @IBOutlet weak var uid_propic: UIImageView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var message: UILabel!
     
 }
